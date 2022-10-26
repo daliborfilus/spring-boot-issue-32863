@@ -14,7 +14,7 @@ import java.io.IOException;
 public class EventCreatedDeserializer extends JsonDeserializer<EventCreated> {
 
     @Autowired
-    public EventCreatedDeserializer() {
+    public EventCreatedDeserializer(ObjectMapper objectMapper) {
         super();
     }
 
